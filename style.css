@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Playfair+Display:wght@600&family=Sansita+Swashed:wght@300&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Fira+Sans+Extra+Condensed:ital,wght@1,600&family=Patua+One&family=Volkhov:ital@1&display=swap');
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.titre{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+}
+.description{
+	width: 80%;
+	color: white;
+	font-size: 1.5em;
+	margin-left: 17%;
+	margin-top: 20px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400px;
+	letter-spacing: 3px;
+	line-height: 35px;
+	font-weight: bold;
+}
+
+.texte_titre{
+	margin-left: 17%;
+	color :white;
+	font-size: 2.8em;
+	font-weight: bold;
+	font-family: 'Secular One', sans-serif;
+	letter-spacing: 04px;
+}
+.menu{
+	margin-top: 10px;
+}
+.titre a{
+	margin-left: 20px;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: black;
+}
+
+.titre a:hover{
+	text-decoration: underline;
+}
+.nom{
+	margin-top: 10px;
+	font-size: 1.3em;
+	margin-right:80px;
+	margin-right: 40px;
+	font-family: 'Arimo', sans-serif;
+}
+.image_font{
+	width: 100%;
+	min-height: 450px;
+	background-image: url("image_de_font/pngtree-cartoon-building-construction-png-image_4363814.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 40%;
+	animation: slibar 40s infinite linear;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+@keyframes slibar{
+	0%{background-image: url("image_de_font/2d2e5e5d98b5021b8627ce754a6f1189.png");}
+	25%{background-image: url("image_de_font/47-477497_people-working-in-the-construction-hd-png-download.png");}
+	50%{background-image: url('image_de_font/78-787875_image-is-not-available-house-construction-wallpaper-hd.png');}
+	75%{background-image: url('image_de_font/81-819997_building-technology-in-construction-hd-png-download.png');}
+	100%{background-image: url('image_de_font/pngtree-cartoon-building-construction-png-image_4363814.jpg');
+	background-position: 20% 50%;
+	;}
+}
+.barre span{
+	font-size: 1.7em;
+	color: white;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+}
+section{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+.contenu{
+	width: 250px;
+	border-radius:  0px 0px 75px 75px;
+	height: 300px;
+	background-color: #F6F6F6;
+	margin: 5px;
+	-webkit-box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+	box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.5);
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+}
+.contenu .titre{
+	font-size: 1.5em;
+	font-family: 'Arimo', sans-serif;
+}
+.services {
+	width: 60%;
+	margin: auto;
+	margin-top: 40px;
+}
+.services_contenu{
+	margin-top: 150px;
+}
+.services_contenu img{
+	width: 60%;
+}
+.titre_service_contenu{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 1.5em;
+	color: black;
+	font-family: Arial;
+	color: #171822;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+.services img{
+	-webkit-box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+	box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+	margin-left:20%;
+	margin-right: 40px;
+}
+.services .texte{
+	letter-spacing: 02px;
+	line-height: 40px;
+	font-size: 1.5em;
+	text-align: justify;
+	font-family: 'Volkhov', serif;
+	color: #2EC1AC;
+	font-weight: 700;
+	margin-left: 10px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 32px;	
+}
+.texte_contenu{
+	width: 80%;
+	margin:auto;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	font-family: "Work Sans", sans-serif;
+	color: #6a6b7c;
+	font-weight: 400;
+	line-height: 28px;
+	margin: 5 5 15px 20px;
+}
+.contenu .texte{
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 5px;
+	font-family: Arial;
+}
+.contenu img{
+	height: 50%;
+	margin: auto;
+	margin-top: 15%;
+	margin-bottom: 5px;
+}
+.barre{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 65%;
+	left: 15%;
+	height: 80px;
+	background-color: #FDDB3A;
+	-webkit-box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+	box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+	position: absolute;
+	top: 71vh;
+	box-shadow: 0px 0px 5px;
+}
+.barre_titre{
+	display: none;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+}
+nav div{
+	margin-top: 10px;
+}
+footer{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	min-height: 160px;
+	background-color: #4f5f80;
+	margin-top: 40vh;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.conteneur_transparent{
+	position: sticky;
+	top: 0px;
+	-webkit-box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+	box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.5);
+	z-index: 2;
+}
+footer .element1, footer .element2{
+	width: 250px;
+	height: 60px;
+}
+footer .element3{
+	width: 600px;
+	height: 60px;
+	margin-top: 35px;
+	font-size: 1.1em;
+	text-align: center;
+}
+.localisation, .contact{
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	letter-spacing: 3px;
+}
+.image_contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.image_contact img{
+	margin: 10px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.texte_localisation{
+	margin-top: 18px;
+	font-size: 1.2em;
+	text-align: center;
+}
+footer .element1{
+	margin-bottom: 40px;
+}
+
+@media all and (max-device-width: 930px){
+	.barre{
+		display: none;
+	}
+}
+
+@media all and (max-device-width: 800px){
+	.nom{
+		display: none;
+	}
+	
+	.barre_titre{
+		position: sticky;
+		position: -webkit-sticky;
+		top: 00px;
+		width: 100%;
+		height: 80px;
+		background-color: white;
+		-webkit-box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+		box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		z-index: 2;
+	}
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+	.navigation{
+		margin-top: 20px;
+		margin-left: 20px;
+		cursor: pointer;
+		width: 60px;
+		height: 60px;
+	}
+	.barre_titre span{
+		font-size: 2em;
+		margin-top: 30px;
+		margin-right: 50px;
+	}
+	.barre{
+		display: none;
+	}
+	.menu_barre{
+		position: fixed;
+		top: 79px;
+		width: 80%;
+		background-color: white;
+		height: 95%;
+	}
+	.conteneur_transparent{
+		display: none;
+		position: fixed;
+		top: 146px;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 95%;
+	}
+	.menu_barre span{
+		font-size: 1.3em;
+		margin-top: 10px;
+	}
+	.menu_barre div{
+		margin-top: 40px;
+		letter-spacing: 5px;
+	}
+	
+}
