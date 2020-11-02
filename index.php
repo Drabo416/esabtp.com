@@ -70,7 +70,7 @@ fclose($monfichier);
 	<span>
 		L’entreprise d’architecture des bâtiments et des travaux publics (EABTP SARL) est une entreprise créée
 		par des anciens étudiants sortis de l’INPHB et de L’ESBTP de yamoussoukro elle a pour bute d’ameliorer
-		les conditions de vie de la population de la population ;En construissant les logements qui respectent toutes les normes de construction en vue de lutter contre le phénomène de l'écroulement des maisons.
+		les conditions de vie de la population; En construissant les logements qui respectent toutes les normes de construction en vue de lutter contre le phénomène de l'écroulement des maisons.
 	</span>
 </div>
 <div class="services" id='service'>
