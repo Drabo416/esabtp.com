@@ -7,8 +7,6 @@ fseek($monfichier, 0); // On remet le curseur au début du fichier
 fputs($monfichier, $pages_vues); // On écrit le nouveau nombre de pages vues
  
 fclose($monfichier);
- 
-echo '<p>Cette page a été vue ' . $pages_vues . ' fois !</p>';
 ?>
 <!DOCTYPE html>
 <html>
