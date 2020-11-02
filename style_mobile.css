@@ -1,6 +1,17 @@
 @media all and (max-device-width: 700px)
 {
-	
+	.logo
+	{
+		width: 400px;
+		height: 400px;
+	}
+	.numero
+	{
+		font-size: 3em;
+		margin-top: 40px;
+		display: flex;
+
+	}
 	.barre_titre{
 		position: sticky;
 		position: -webkit-sticky;
@@ -138,11 +149,12 @@
 		margin: auto;
 		width: auto;
 	}
-	.element2{
-		margin-top: 250px;
-	}
 	.texte_localisation{
 		margin-left: 80px;
+	}
+	footer .element3
+	{
+		font-size: 2em;
 	}
 	.texte_localisation span{
 		font-size: 1.2em;
@@ -155,9 +167,7 @@
 	.contact{
 		margin-top: 100px;
 	}
-	.image_contact{
-		margin-left: 90px;
-	}
+	
 	.image_contact img{
 		width: 100px;
 		height: 100px;
