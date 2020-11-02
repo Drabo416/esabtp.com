@@ -18,6 +18,7 @@ fclose($monfichier);
 	<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Fira+Sans+Extra+Condensed:ital,wght@1,600&family=Patua+One&family=Volkhov:ital@1&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style_mobile.css">
+	<meta name="google-site-verification" content="5_wcS9C0QQ1fzgTWFTt2h7fLXRO_gXrAaos4VjJgigg" />
 </head>
 <body>
 <div class="barre_titre">
