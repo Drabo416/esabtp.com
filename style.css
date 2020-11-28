@@ -79,7 +79,7 @@ footer .element3
 .image_font{
 	width: 100%;
 	min-height: 450px;
-	background-image: url("pngtree-cartoon-building-construction-png-image_4363814.jpg");
+	background-image: url("image_de_font/pngtree-cartoon-building-construction-png-image_4363814.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 40% 40%;
@@ -90,11 +90,11 @@ footer .element3
 
 }
 @keyframes slibar{
-	0%{background-image: url("2d2e5e5d98b5021b8627ce754a6f1189.png");}
-	25%{background-image: url("47-477497_people-working-in-the-construction-hd-png-download.png");}
-	50%{background-image: url('78-787875_image-is-not-available-house-construction-wallpaper-hd.png');}
-	75%{background-image: url('81-819997_building-technology-in-construction-hd-png-download.png');}
-	100%{background-image: url('pngtree-cartoon-building-construction-png-image_4363814.jpg');
+	0%{background-image: url("image_de_font/2d2e5e5d98b5021b8627ce754a6f1189.png");}
+	25%{background-image: url("image_de_font/47-477497_people-working-in-the-construction-hd-png-download.png");}
+	50%{background-image: url('image_de_font/78-787875_image-is-not-available-house-construction-wallpaper-hd.png');}
+	75%{background-image: url('image_de_font/81-819997_building-technology-in-construction-hd-png-download.png');}
+	100%{background-image: url('image_de_font/pngtree-cartoon-building-construction-png-image_4363814.jpg');
 	background-position: 20% 50%;
 	;}
 }
@@ -121,6 +121,14 @@ section{
 	display: flex;
 	flex-direction: column;
 	margin-top: 80px;
+}
+.realisation{
+	background-image:url("font.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 0px;
+	padding-bottom: 40px;
 }
 .contenu .titre{
 	font-size: 1.5em;
@@ -154,17 +162,18 @@ section{
 	margin-left:20%;
 	margin-right: 40px;
 }
-.services .texte{
+.texte-service-contenu{
 	letter-spacing: 02px;
 	line-height: 40px;
 	font-size: 1.5em;
-	text-align: justify;
+	text-align: center;
 	font-family: 'Volkhov', serif;
 	color: #2EC1AC;
 	font-weight: 700;
 	margin-left: 10px;
-	width: 80%;
+	width: 60%;
 	margin: auto;
+	margin-top: 30px;
 	margin-bottom: 32px;	
 }
 .texte_contenu{
@@ -200,7 +209,8 @@ section{
 	width: 65%;
 	left: 15%;
 	height: 80px;
-	background-color: #FDDB3A;
+	background-color: #cccccc;
+  background-image: radial-gradient(#16697A, #16A596);
 	-webkit-box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
 	box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
 	position: absolute;
@@ -224,7 +234,6 @@ footer{
 	width: 100%;
 	min-height: 200px;
 	background-color: #4f5f80;
-	margin-top: 40vh;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
@@ -247,15 +256,19 @@ footer .element3
 }
 .realisation .img{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .realisation img{
-	margin:auto;
-	width: 50%;
+	margin-left: 5px;
 	margin-top: 40px;
-	height: 40%;
+	margin-right: 0px;
+	height: 350px;
+	width: 450px;
 	-webkit-box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.15);
 	box-shadow: 3px 10px 30px rgba(74, 74, 77, 0.5);
+	opacity: 0.9;
 }
 .conteneur_transparent{
 	position: sticky;
@@ -291,18 +304,28 @@ footer .element3
 footer .element1{
 	margin-bottom: 40px;
 }
-
-@media all and (max-device-width: 930px){
-	.barre{
-		display: none;
-	}
-}
-
-@media all and (max-device-width: 800px){
+@media only screen and (max-width:850px){
 	.nom{
 		display: none;
 	}
-	
+	.logo
+	{
+		width: 200px;
+		height: 200px;
+	}
+	.conteneur_transparent
+	{
+		position: fixed;
+		top: 20px;
+	}
+	.barre-navigation
+	{
+		width: 80px;
+		height: 80px;
+		margin-right: 0px;
+		position: absolute;
+		right: 238px;
+	}
 	.barre_titre{
 		position: sticky;
 		position: -webkit-sticky;

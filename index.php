@@ -12,17 +12,18 @@ fclose($monfichier);
 <html>
 <head>
 	<title>Site officiel ESABTP SARL</title>
+	<link rel="icon"  href="IMG-20201029-WA0020.jpg" sizes="16x16" type="image/png">
 	<meta charset="utf-8">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Playfair+Display:wght@600&family=Sansita+Swashed:wght@300&family=Secular+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Fira+Sans+Extra+Condensed:ital,wght@1,600&family=Patua+One&family=Volkhov:ital@1&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style_mobile.css">
-	<meta name="google-site-verification" content="5_wcS9C0QQ1fzgTWFTt2h7fLXRO_gXrAaos4VjJgigg" />
 </head>
 <body>
 <div class="barre_titre">
 	<img src="navigation.png" class="navigation">
+	<img src="IMG-20201029-WA0020.jpg" class="logo barre-navigation">
 	<span>EABTP SARL</span>
 </div>
 <div class="conteneur_transparent">
@@ -69,9 +70,9 @@ fclose($monfichier);
 </section>
 <div class="texte_contenu" id="a_propos">
 	<span>
-		L’entreprise d’architecture des bâtiments et des travaux publics (EABTP SARL) est une entreprise créée
-		par des anciens étudiants sortis de l’INPHB et de L’ESBTP de yamoussoukro elle a pour bute d’ameliorer
-		les conditions de vie de la population; En construissant les logements qui respectent toutes les normes de construction en vue de lutter contre le phénomène de l'écroulement des maisons.
+		L’entreprise d’architecture des bâtiments et des travaux publics (EABTP SARL) est une entreprise créées
+		par des anciens étudiants sortis de l’INPHB et de L’ESBTP de Yamoussoukro, elle a pour but d’ameliorer
+		les conditions de vie de la population de la population ;En construisant les logements qui respectent toutes les normes de construction en vue de lutter contre le phénomène de l'écoulement des maisons.
 	</span>
 </div>
 <div class="services" id='service'>
@@ -141,14 +142,20 @@ construction et un terrain bien situé dans votre localité.</span>
 <div class="realisation">
 	<div class="realisation-texte"><span>Nos réalisations</span></div>
 	<div class="img">
-	<img data-aos="flip-left" class="image1" src="IMG-20201002-WA0039.jpg">
-	<img data-aos="flip-left" class="image2" src="IMG-20200922-WA0000.jpg">
-	<img data-aos="flip-left" class="image3" src="IMG-20201002-WA0044.jpg">
 	<img data-aos="flip-left" class="image4" src="IMG-20201002-WA0045.jpg">
 	<img data-aos="flip-left" class="image5" src="IMG-20201002-WA0046.jpg">
+	<img data-aos="flip-left" class="image1" src="IMG-20201002-WA0039.jpg">
+	<img data-aos="flip-left" class="image3" src="IMG-20201002-WA0044.jpg">
+	<img data-aos="flip-left" class="image2" src="IMG-20200922-WA0000.jpg">
 	<img data-aos="flip-left" class="image6" src="IMG-20201002-WA0047.jpg">
 	<img data-aos="flip-left" class="image6" src="IMG-20201022-WA0015.jpg">
 	<img data-aos="flip-left" class="image6" src="IMG-20201022-WA0016.jpg">
+	<img data-aos="flip-left" class="image6" src="IMG-20201126-WA0013.jpg">
+	<img data-aos="flip-left" class="image6" src="IMG-20201126-WA0022.jpg">
+	<img data-aos="flip-left" class="image6" src="IMG-20201126-WA0015.jpg">
+	<img data-aos="flip-left" class="image6" src="IMG-20201126-WA0014.jpg">
+	<img data-aos="flip-left" class="image6" src="IMG-20201126-WA0009.jpg">
+	<img data-aos="flip-left" class="image6" src="IMG-20201126-WA0012.jpg">
 	</div>
 	</div>
 </div>

@@ -1,9 +1,21 @@
 @media all and (max-device-width: 700px)
 {
+	.realisation img
+	{
+		width: auto;
+		height: 40%;
+	}
 	.logo
 	{
 		width: 400px;
 		height: 400px;
+	}
+	.barre-navigation
+	{
+		width: 150px;
+		height: 150px;
+		margin-left: 250px;
+		border-radius: 75px 75px 75px 75px;
 	}
 	.numero
 	{
@@ -74,6 +86,7 @@
 		font-size: 4em;
 		margin-top: 40px;
 		margin-right: 50px;
+		margin-left: 0px;
 	}
 	.image_font{
 		height: 1100px;
@@ -138,9 +151,11 @@
 	.contenu img{
 		margin-top: 20%;
 	}
+	.realisation{
+		background-position: 55% 55%;
+	}
 	footer
 	{
-		margin-top: 40px;
 		flex-direction: column;
 		min-height: 1200px;
 	}
