@@ -151,6 +151,10 @@
 	.contenu img{
 		margin-top: 20%;
 	}
+	.conteneur_transparent-afficher
+{
+	background-color: rgba(0, 0, 0, 0.7);
+}
 	.realisation{
 		background-position: 55% 55%;
 	}
@@ -202,4 +206,14 @@
 	.services_contenu {
 		width: 100%;
 	}
+.afficher-image-titre, .afficher-image-titre img
+{
+	width: 80px;
+	height:80px;
+}
+
+.afficher-image-titre{
+	top: 13%;
+	right: 10%;
+}
 }
