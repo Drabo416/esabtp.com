@@ -72,7 +72,7 @@ fclose($monfichier);
 	<span>
 		L’entreprise d’architecture des bâtiments et des travaux publics (EABTP SARL) est une entreprise créées
 		par des anciens étudiants sortis de l’INPHB et de L’ESBTP de Yamoussoukro, elle a pour but d’ameliorer
-		les conditions de vie de la population de la population ;En construisant les logements qui respectent toutes les normes de construction en vue de lutter contre le phénomène de l'écoulement des maisons.
+		les conditions de vie de la population de la population ;En construisant les logements qui respectent toutes les normes de construction en vue de lutter contre le phénomène d'écroulement des maisons.
 	</span>
 </div>
 <div class="services" id='service'>
@@ -191,10 +191,41 @@ construction et un terrain bien situé dans votre localité.</span>
  All Rights Reserved.</p>
 	</div>
 </footer>
+<div class="conteneur_transparent-afficher">
+	<div class="afficher-image-titre"><img src="baseline_cancel_white_18dp.png"></div>
+	<div class="afficher-image">
+</div>
+</div>
 </body>
 <script type="text/javascript" src="jquery.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript">
+	var image = document.querySelectorAll(".realisation .img img");
+	var imageAffiche =document.querySelector('.afficher-image');
+	imageLength = image.length;
+	quitter = document.querySelector('.afficher-image-titre');
+	var conteneurAfficher=document.querySelector(".conteneur_transparent-afficher");
+	conteneurAfficher.addEventListener('click', function(e){
+		if (e.target != imageAffiche)
+		{
+			conteneurAfficher.style.display='none';
+		}
+	})
+	imageAffiche.removeEventListener('click', function(e){
+			conteneurAfficher.style.display='none';
+	});
+	quitter.addEventListener('click', function(){
+		conteneurAfficher.style.display='none';
+	})
+	for(var i =0; i<imageLength; i++)
+	{
+		(function(i){
+			image[i].addEventListener("click", function(){
+					conteneurAfficher.style.display='block';
+				imageAffiche.style.backgroundImage='url('+image[i].src+')';
+		});
+		})(i);
+	}
 	AOS.init(
 	{
 		duration:1200,
